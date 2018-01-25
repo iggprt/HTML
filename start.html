@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en"
+	<head>
+		<script src = "start.js"></script>
+	</head>
+	<body>
+		
+		<p id="sayHello"></p>
+		<script>
+			var yourName = prompt("What is your name?");
+			if (yourName != null)
+			{
+				document.getElementById("sayHello").innerHTML = "Hello "+ yourName;
+			}
+			else 
+			{
+				alert("error");
+			}
+		</script>
+
+	</body>
+</html>
